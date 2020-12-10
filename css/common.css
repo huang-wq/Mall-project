@@ -2,19 +2,18 @@ body{
 font-size: 12px;
 background-color: #eee;
 }
-
-.biaoqian{
-    list-style: none;
-
+a{
+    color: #333;
+    text-decoration: none;
 }
-.biaoqian:hover{
-    background-color: aqua;
+a:hover{
+color: #1890ff;;
 }
-
 .box{
-    width: 1080px;
-    margin: 0 auto;
+   width: 1080px;
+   margin: 0 auto;
 }
+
 /* 清除浮动
 ---------------------------------------------------------------- */
 .clearfix:after{

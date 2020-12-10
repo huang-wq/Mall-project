@@ -4,42 +4,60 @@
    height:30px;
    background-color:#f3f3f3;
 }
-
-
+.top .box{
+  line-height:30px;
+}
+.top .box .topleft{
+  float: left;
+}
+.top .box .topright{
+  float: right;
+}
+.top .box .topright .topright1{
+  float: left;
+}
 /* 头部搜索
 ---------------------------------------------------------------- */
 .header{
-  height: 110px;
-  background-color:#fff;
+background-color:#fff;
 }
-.header .log{
-  
+.header .box{
+  height:110px;
 }
 
 /* 焦点
 ---------------------------------------------------------------- */
 .focus{
   height: 440px;
+}
+.focus .box{
+  
   background-color: blue;    
 }
-
 /* 热销
 ---------------------------------------------------------------- */
 .best{
-  height:300px;
+  height: 300px;
+}
+.best .box{
+  
   background-color: chartreuse;
 }
-
 /* 楼层
 ---------------------------------------------------------------- */
 .floor{
   height:720px;
+}
+.floor .box{
+  
   background-color: darkcyan;
 }
-
 /* 底部导航
 ---------------------------------------------------------------- */
 .bottom{
   height:248px;
+}
+.bottom .box{
+ 
   background-color:#2f2f2f;
 }
