@@ -1,3 +1,29 @@
-*{
+body{
 font-size: 12px;
+background-color: #eee;
+}
+
+.biaoqian{
+    list-style: none;
+
+}
+.biaoqian:hover{
+    background-color: aqua;
+}
+
+.box{
+    width: 1080px;
+    margin: 0 auto;
+}
+/* 清除浮动
+---------------------------------------------------------------- */
+.clearfix:after{
+    content: "";
+    clear: both;
+    display: block;
+    height: 0px;
+    visibility: hidden;
+}
+.clearfix{
+    *zoom:1;
 }
