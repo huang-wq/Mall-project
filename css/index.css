@@ -15,24 +15,164 @@
 }
 .top .box .topright .topright1{
   float: left;
+  padding:0 5px;
+  margin-right: 16px;
+  box-sizing: border-box;
+}
+.top .box .topright .topright1:hover{
+  background-color: #fff;
+}
+.icon-gouwuche{
+  font-size: 12px;
 }
 /* 头部搜索
 ---------------------------------------------------------------- */
 .header{
 background-color:#fff;
+border-bottom:1px solid #52c41a;
 }
-.header .box{
-  height:110px;
+.header .logo{
+  float: left;
+  height: 110px;
+  line-height: 110px;
 }
-
+.header .logo a{
+ font-size: 30px;
+ font-weight: bold;
+ color: #52c41a;
+}
+.header .headright{
+  height: 110px;
+  float: right;
+}
+.headright .right-lf{
+  margin-top: 18px;
+}
+.right-lf .right-t{
+  float: left;
+  width: 414px;
+  height: 42px;
+  border: 2px solid #52c41a;
+  outline: none;
+  padding-left: 10px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+.right-lf .right-a{
+  float: left;
+  width: 100px;
+  height: 42px;
+  line-height: 42px;
+  text-align: center;
+  background-color:#52c41a;
+}
+.right-lf a{
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+}
+.right-lf a:hover{
+  opacity: 0.6;
+}
+.headright .bot-list{
+  margin-top: 22px;
+}
+.bot-list .bot-listr{
+  float: left;
+  font-size: 15px;
+  font-weight: lighter;
+  margin-right:41px;
+}
+.bot-list .bot-listr .list1{
+  color: #52c41a;
+}
 /* 焦点
 ---------------------------------------------------------------- */
-.focus{
+.focus .box{
+   margin-top: 30px;
+   margin-bottom: 40px;
+}
+.focus-le{
+  height: 440px;
+  float: left;
+  background-color: #fff;
+}
+.focus-le .parent-le{
+  width: 100%;
+  height: 100%;
+  padding: 20px 0;
+  box-sizing: border-box;
+}
+.focus-le .parent-le .parent-le-itmes{
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  padding:0 10px;
+  box-sizing: border-box;
+}
+.focus-le .parent-le .parent-le-itmes:hover{
+  background-color: #ccc;
+}
+.focus-le .parent-le .parent-le-itmes .itme-a{
+ font-size: 14px;
+ margin-right: 4px;
+}
+.focus-ri{
+  float:right;
+  position: relative;
+  height: 440px;
+  background-color: blue;
+}
+.focus-ri .tupi{
+  position: relative;
+}
+.focus-ri .tupi .tupi-itmes{
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.focus-ri .tupi .tupi-itmes img{
+  width: 862px;
   height: 440px;
 }
-.focus .box{
-  
-  background-color: blue;    
+.focus-ri .dingwei{
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-size:50px;
+  font-weight:lighter;
+  color: #007aff;
+}
+.focus-ri .dingwei-left{
+  position: absolute;
+  top:50%;
+  left: 0;
+  margin-top: -25px;
+ }
+.focus-ri .dingwei-right{
+  position: absolute;
+  top: 50%;
+  right: 0;
+  margin-top: -25px;
+}
+.focus-ri .fbot{
+  position: absolute;
+  bottom: 13px;
+  left: 50%;
+  margin-left: -45px;
+}
+.focus-ri .fbot .fbot-itm{
+  float: left;
+  width: 20px;
+  height:20px;
+  border-radius: 50%;
+  margin-left: 10px;
+  background-color: rgba(0, 0,0,0.3);
+  cursor: pointer;
+}
+.focus-ri .fbot .fl3{
+  background-color: #52c41a;
 }
 /* 热销
 ---------------------------------------------------------------- */
@@ -40,7 +180,7 @@ background-color:#fff;
   height: 300px;
 }
 .best .box{
-  
+  height: 300px;
   background-color: chartreuse;
 }
 /* 楼层
@@ -49,15 +189,56 @@ background-color:#fff;
   height:720px;
 }
 .floor .box{
-  
+  height:720px;
   background-color: darkcyan;
 }
 /* 底部导航
 ---------------------------------------------------------------- */
 .bottom{
   height:248px;
+  background-color:#2f2f2f;
 }
 .bottom .box{
+  height:248px;
+}
+.bottom .box .bot-top{
+  height: 146px;
+  border-bottom: 1px solid rgba(255, 255, 255,0.1);
+  box-sizing: border-box;
+  line-height:146px;
+  text-align: center;
+}
+.bottom .box .bot-top {
+  font-size: 18px;
+  color: #fff;
+}
+.bottom .box .bot-top i {
+  margin-left: 40px;
+  margin-right: 17px;
+  font-size: 30px;
+}
+.bottom .box .bot-top .b1{
+  margin-right: 17px;
+}
+.bottom .box .bot-top .b2{
+  margin-right: 17px;
+  margin-left: 42px;
+}
+.bottom .box .bot-top .b3{
+  margin-right: 32px;
+}
+.bottom .box .bot-bott{
+  height: 102px;
+  text-align: center;
  
-  background-color:#2f2f2f;
+}
+.bottom .box .bot-bott1{
+  margin-top: 12px;
+  margin-bottom: 16px;
+}
+.bottom .box .bot-bott1 a{
+  color: #888;
+}
+.bottom .box .bot-bott2{
+  color: #888;
 }

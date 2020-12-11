@@ -26,3 +26,13 @@ color: #1890ff;;
 .clearfix{
     *zoom:1;
 }
+
+.col-1{
+    width: 208px;
+}
+.col-4{
+    width: 862px;
+}
+.jianju{
+    margin-right: 10px;
+}
