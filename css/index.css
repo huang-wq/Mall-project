@@ -176,13 +176,69 @@ border-bottom:1px solid #52c41a;
 }
 /* 热销
 ---------------------------------------------------------------- */
-.best{
-  height: 300px;
-}
 .best .box{
-  height: 300px;
-  background-color: chartreuse;
+margin-bottom: 40px;
 }
+.box .bes-le{
+   float: left;
+   height: 300px;
+   text-align: center;
+   background-image: linear-gradient(#007aff,#52c41a);
+   cursor: pointer;
+}
+.box .bes-le1{
+  font-size:38px;
+  color: #fff;
+  margin-top:98px;
+  margin-bottom: 28px;
+}
+.box .icon-gouwuche{
+  font-size:32px;
+  color: #fff;
+}
+.box .bes-ri{
+  float: right;
+  height: 300px;
+}
+/* .box .bes-ri .bes-ri1{
+  float: left;
+  padding: 15px 10px;
+  background-color:#fff;
+  box-sizing: border-box;
+  height: 300px;
+  cursor: pointer;
+} */
+.box .bes-ri .bes-ri1:nth-child(4){
+  margin-right: 0;
+}
+/* .box .bes-ri .bes-ri1:hover{
+  box-shadow: 2px 3px 3px 3px #ccc;
+}
+.box .bes-ri .bes-ri1 img{
+  width: 180px;
+  height: 180px;
+  margin-top: 20px;
+}
+.box .bes-ri .bes-ri1 .bes-ri1name{
+  width: 180px;
+  font-size: 14px;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  white-space: nowrap;
+  text-overflow:ellipsis;
+  overflow: hidden;
+}
+.box .bes-ri .bes-ri1 .bes-ri1money{
+  float: left;
+  color: red;
+  font-size: 14px;
+  margin-left: 10px;
+}
+.box .bes-ri .bes-ri1 .bes-ri1number{
+  float: right;
+  color:#8f8f9f;
+  margin-right: 10px;
+} */
 /* 楼层
 ---------------------------------------------------------------- */
 .floor{
@@ -191,6 +247,15 @@ border-bottom:1px solid #52c41a;
 .floor .box{
   height:720px;
   background-color: darkcyan;
+}
+.floor .box .boxshang{
+  height: 22px;
+  border: 2px solid #52c41a;
+  box-sizing: border-box;
+}
+.floor .box .boxshang .biaoti{
+  font-size: 16px;
+  color: #52c41a;
 }
 /* 底部导航
 ---------------------------------------------------------------- */
@@ -239,6 +304,12 @@ border-bottom:1px solid #52c41a;
 .bottom .box .bot-bott1 a{
   color: #888;
 }
+.bottom .box .bot-bott1 .aju1{
+ margin-right:22px;
+}
+.bottom .box .bot-bott1 .aju2{
+  margin-left:22px;
+ }
 .bottom .box .bot-bott2{
   color: #888;
 }

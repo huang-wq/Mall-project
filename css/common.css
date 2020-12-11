@@ -36,3 +36,44 @@ color: #1890ff;;
 .jianju{
     margin-right: 10px;
 }
+/* 热销和楼层 */
+
+.bes-ri .bes-ri1{
+    float: left;
+    padding: 15px 10px;
+    background-color:#fff;
+    box-sizing: border-box;
+    height: 300px;
+    cursor: pointer;
+  }
+  /* .box .bes-ri .bes-ri1:nth-child(4){
+    margin-right: 0;
+  } */
+.bes-ri .bes-ri1:hover{
+    box-shadow: 2px 3px 3px 3px #ccc;
+  }
+.bes-ri .bes-ri1 img{
+    width: 180px;
+    height: 180px;
+    margin-top: 20px;
+  }
+.bes-ri .bes-ri1 .bes-ri1name{
+    width: 180px;
+    font-size: 14px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    overflow: hidden;
+  }
+.bes-ri .bes-ri1 .bes-ri1money{
+    float: left;
+    color: red;
+    font-size: 14px;
+    margin-left: 10px;
+  }
+.bes-ri .bes-ri1 .bes-ri1number{
+    float: right;
+    color:#8f8f9f;
+    margin-right: 10px;
+  }
