@@ -45,12 +45,13 @@ color: #1890ff;;
     box-sizing: border-box;
     height: 300px;
     cursor: pointer;
+    transition: all 0.3s;
   }
   /* .box .bes-ri .bes-ri1:nth-child(4){
     margin-right: 0;
   } */
 .bes-ri .bes-ri1:hover{
-    box-shadow: 2px 3px 3px 3px #ccc;
+    box-shadow: 2px 3px 3px #ccc;
   }
 .bes-ri .bes-ri1 img{
     width: 180px;
@@ -59,6 +60,7 @@ color: #1890ff;;
   }
 .bes-ri .bes-ri1 .bes-ri1name{
     width: 180px;
+    color: #333;
     font-size: 14px;
     margin-top: 8px;
     margin-bottom: 20px;

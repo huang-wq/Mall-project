@@ -192,7 +192,7 @@ margin-bottom: 40px;
   margin-top:98px;
   margin-bottom: 28px;
 }
-.box .icon-gouwuche{
+.box .bes-le2{
   font-size:32px;
   color: #fff;
 }
@@ -208,9 +208,12 @@ margin-bottom: 40px;
   height: 300px;
   cursor: pointer;
 } */
-.box .bes-ri .bes-ri1:nth-child(4){
-  margin-right: 0;
+.box .bes-ri .teshu{
+  margin-right: 0; 
 }
+/* .box .bes-ri .bes-ri1:nth-child(4){
+  margin-right: 0; 
+}  */
 /* .box .bes-ri .bes-ri1:hover{
   box-shadow: 2px 3px 3px 3px #ccc;
 }
@@ -242,20 +245,18 @@ margin-bottom: 40px;
 /* 楼层
 ---------------------------------------------------------------- */
 .floor{
-  height:720px;
+margin-bottom: 40px;
 }
-.floor .box{
-  height:720px;
-  background-color: darkcyan;
+.floor .box .afloor .boxshang{
+  margin-bottom: 14px;
+  border-bottom:1px solid #52c41a;
 }
-.floor .box .boxshang{
-  height: 22px;
-  border: 2px solid #52c41a;
-  box-sizing: border-box;
-}
-.floor .box .boxshang .biaoti{
-  font-size: 16px;
+.floor .box .boxshang a{
+  font-size: 18px;
   color: #52c41a;
+}
+.box .bes-ri .bes-ri1:nth-child(5){
+  margin-right: 0;
 }
 /* 底部导航
 ---------------------------------------------------------------- */
@@ -269,28 +270,34 @@ margin-bottom: 40px;
 .bottom .box .bot-top{
   height: 146px;
   border-bottom: 1px solid rgba(255, 255, 255,0.1);
-  box-sizing: border-box;
-  line-height:146px;
-  text-align: center;
+  line-height:146px; 
 }
-.bottom .box .bot-top {
+.bottom .box .bot-top span{
+  display:inline-block;
+  height: 36px;
+  line-height: 36px;
   font-size: 18px;
   color: #fff;
 }
-.bottom .box .bot-top i {
-  margin-left: 40px;
-  margin-right: 17px;
-  font-size: 30px;
+.bottom .box .bot-top .bt1{
+  margin-right: 210px;
 }
-.bottom .box .bot-top .b1{
-  margin-right: 17px;
+.bottom .box .bot-top .bt2{
+  margin-right: 210px;
 }
-.bottom .box .bot-top .b2{
-  margin-right: 17px;
-  margin-left: 42px;
+.bottom .box .bot-top i{
+  font-size: 36px;
+  vertical-align: middle;
 }
-.bottom .box .bot-top .b3{
-  margin-right: 32px;
+.bottom .box .bot-top .a1{
+padding-right: 16px;
+padding-left:40px;
+}
+.bottom .box .bot-top .a2{
+  padding-right: 16px;
+}
+.bottom .box .bot-top .a3{
+    padding-right: 16px;
 }
 .bottom .box .bot-bott{
   height: 102px;
