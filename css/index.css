@@ -198,54 +198,14 @@ margin-bottom: 40px;
 }
 .box .bes-ri{
   float: right;
-  height: 300px;
 }
-/* .box .bes-ri .bes-ri1{
-  float: left;
-  padding: 15px 10px;
-  background-color:#fff;
-  box-sizing: border-box;
-  height: 300px;
-  cursor: pointer;
-} */
-.box .bes-ri .teshu{
+.box .bes-ri .bes-ri1:last-child{
   margin-right: 0; 
 }
-/* .box .bes-ri .bes-ri1:nth-child(4){
-  margin-right: 0; 
-}  */
-/* .box .bes-ri .bes-ri1:hover{
-  box-shadow: 2px 3px 3px 3px #ccc;
-}
-.box .bes-ri .bes-ri1 img{
-  width: 180px;
-  height: 180px;
-  margin-top: 20px;
-}
-.box .bes-ri .bes-ri1 .bes-ri1name{
-  width: 180px;
-  font-size: 14px;
-  margin-top: 8px;
-  margin-bottom: 20px;
-  white-space: nowrap;
-  text-overflow:ellipsis;
-  overflow: hidden;
-}
-.box .bes-ri .bes-ri1 .bes-ri1money{
-  float: left;
-  color: red;
-  font-size: 14px;
-  margin-left: 10px;
-}
-.box .bes-ri .bes-ri1 .bes-ri1number{
-  float: right;
-  color:#8f8f9f;
-  margin-right: 10px;
-} */
 /* 楼层
 ---------------------------------------------------------------- */
-.floor{
-margin-bottom: 40px;
+.floor .box .afloor{
+  margin-bottom: 40px;
 }
 .floor .box .afloor .boxshang{
   margin-bottom: 14px;
@@ -255,7 +215,7 @@ margin-bottom: 40px;
   font-size: 18px;
   color: #52c41a;
 }
-.box .bes-ri .bes-ri1:nth-child(5){
+.box .bes-ri .bes-ri1:nth-child(5n){
   margin-right: 0;
 }
 /* 底部导航
